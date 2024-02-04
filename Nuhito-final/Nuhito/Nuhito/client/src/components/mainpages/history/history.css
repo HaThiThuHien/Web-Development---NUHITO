@@ -1,0 +1,47 @@
+.history-page {
+    overflow-x: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.history-page h2,
+.history-page h4 {
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.history-page table {
+    margin: auto;
+    width: 100%;
+}
+
+.history-page table,
+.history-page th,
+.history-page tr,
+.history-page td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.history-page th,
+.history-page td {
+    text-align: center;
+    padding: 10px;
+}
+
+#history-products th,
+#history-products td {
+    text-transform: capitalize;
+}
+
+table a {
+    color: rgb(3, 165, 206);
+}
+
+.history-page img {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
